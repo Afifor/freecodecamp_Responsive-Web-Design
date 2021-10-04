@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: linear-gradient(to left top, #a18e6da4, #b9b1a29f, #a6a9a2b0), url("wallhaven-oxj32m.jpg");
+    text-align: center;
+}
+
+
+/* Form */
+
+form {
+    background-color: #644f2ad5;
+    padding: 30px 30px 30px 30px;
+    margin: 0 auto 0 auto;
+    display: block;
+    width: 30em;
+    border-radius: 6px;
+}
+
+.forminput {
+    display: block;
+    margin: 1em 0em 1em 1em;
+    padding: 0.3em 0.3em 0.3em 0.3em;
+    width: 20em;
+    border: solid 3px #644f2a91;
+    border-radius: 4px;
+}
+
+input[type=text]:focus,
+input[type=number]:focus,
+input[type=email]:focus {
+    width: 25em;
+    border: solid #8A929E 6px;
+}
+
+form p {
+    text-align: left;
+    /* padding-left: 4em; */
+    margin-top: 1em;
+    margin-bottom: 0.2em;
+    font-weight: 800;
+}
+
+form {
+    text-align: left;
+    padding-left: 4em;
+}
+
+label {
+    display: flex;
+    align-items: center;
+}
+
+button {
+    margin-top: 10px;
+    background-color: #C4B396;
+    border-radius: 6px;
+    padding: 10px 10px 10px 10px;
+}

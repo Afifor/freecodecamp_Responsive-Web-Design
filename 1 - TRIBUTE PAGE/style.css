@@ -1,0 +1,96 @@
+html {
+    font-size: 10px;
+    font-weight: 200;
+}
+
+body {
+    font-family: Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    background-color: #bfcbc7;
+}
+
+h1 {
+    font-size: 4.4rem;
+    text-decoration: underline;
+    margin-top: 10px;
+}
+
+
+
+h2 {
+    font-size: 3.8rem;
+}
+
+#main {
+    background-color: #91A9A1;
+    margin: 55px 55px 55px 55px;
+    padding-top: 2px;
+    padding-bottom: 3px;
+    border-radius: 3%;
+}
+
+img {
+    height: auto;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#img-div {
+    background-color: #bfcbc7;
+    padding: 12px 12px 12px 12px;
+    margin-left: 160px;
+    margin-right: 160px;
+    border-radius: 6px;
+}
+
+#img-caption {
+    font-size: 1.7rem;
+}
+
+ul {
+    text-align: left;
+    margin-left: 300px;
+    line-height: 3;
+}
+
+
+blockquote {
+    background-color: #6B9185;
+    font-weight: 100;
+    color: #FEE6DA;
+    margin-left: 550px;
+    margin-right: 550px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 3px;
+}
+
+blockquote a {
+    color: #DBB4A1;
+}
+
+blockquote a:visited {
+    color: #FFF5F0;
+}
+
+span {
+    margin-right: 20px;
+    text-decoration: underline;
+}
+
+/* Small screens alternative */
+@media (max-width: 1000px) {
+    h1 {
+        font-size: 4rem;
+    }
+    
+    h2 {
+        font-size: 3.3rem;
+    }
+    
+}

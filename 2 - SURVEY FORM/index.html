@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Survey Form</title>
+</head>
+
+<body>
+    <h1 id="title">My precious Survey Form</h1>
+    <p id="description">Hope that's a good one</p>
+    <form id="survey-form">
+        <!--NAME-->
+        <div class="inputgroup">
+            <label for="name" id="name-label">Your name?</label>
+            <input type="text" type="name" name="name" id="name" class="forminput" required placeholder="Please enter your name" />
+        </div>
+        <!--EMAIL-->
+        <div class="inputgroup">
+            <label for="email" id="email-label">Your email?</label>
+            <input type="email" name="email" id="email" class="forminput" required placeholder="enter your email i beg you" />
+        </div>
+        <!--AGE-->
+        <div class="inputgroup">
+            <label for="number" id="number-label">Age</label>
+            <input type="number" name="age" id="number" class="forminput" min="18" max="90" placeholder="Input age" />
+        </div>
+        <!--RADIO 1 (BEARS)-->
+        <div class="inputgroup">
+            <p>Who is the best bear ?</p>
+            <label>
+                <input name="bestbear" type="radio" value="Polar bear" />
+                Polar bear
+            </label>
+            <label>
+                <input name="bestbear" type="radio" value="Grizzly" />
+                Grizzly
+            </label>
+            <label>
+                <input name="bestbear" type="radio" value="Panda" />
+                Panda
+            </label>
+        </div>
+        <!--RADIO 2 (FOOD)-->
+        <p>What is the best ?</p>
+        <label>
+            <input value="Pizza" name="food" type="radio" />
+            Pizza
+        </label>
+        <label>
+            <input type="radio" name="food" value="French fries" />
+            French fries
+        </label>
+        <label>
+            <input type="checkbox" name="food" value="With 3kg of cheese ?" />
+            With 3kg of cheese ?
+        </label>
+        </div>
+        <!--SELECT-->
+        <div class="inputgroup">
+            <p>What is the best Pink Floyd album ?</p>
+            <select name="pfloyd" id="dropdown">
+                <option disabled selected>Choose an album</option>
+                <option value="Ummagumma">Ummagumma</option>
+                <option value="Animals">Animals</option>
+                <option value="Dark side of the moon" disabled>Dark Side of the Moon</option>
+                <option value="The Piper at the Gates of Dawn">The Piper at the Gates of Dawn</option>
+            </select>
+        </div>
+        <!--CHECKBOXES-->
+        <div class="inputgroup">
+            <p>How does it make you feel ?</p>
+            <label>
+                <input type="checkbox" name="feelings" value="Happy" />Happy
+            </label>
+            <label>
+                <input type="checkbox" name="feelings" value="Sad" />Sad
+            </label>
+            <label>
+                <input type="checkbox" name="feelings" value="Weary" />Weary
+            </label>
+            <label>
+                <input type="checkbox" name="feelings" value="I should really quit smoking" />I should really quit
+                smoking
+            </label>
+            <p>Want to add something ?</p>
+            <textarea rows="10" cols="40" id="comments" name="comment" placeholder="You can enter additional comments or suggestions in here"></textarea>
+        </div>
+        <div class="inputgroup">
+            <button type="submit" id="submit">Submit</button>
+        </div>
+    </form>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>
