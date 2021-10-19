@@ -1,7 +1,57 @@
-.contact {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
+body {
+    background-color: #F5F5FA;
+}
+p {
+    font-size: 22px;
 }
 
+section {
+    margin-top: 100px!important;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#nav-bar {
+    position: fixed;
+}
+
+.separator {
+    height:18px;
+    background-color: #D9DAEB;
+    margin: 60px 0 60px;
+}
+.nav-link {
+    color: black;
+}
+.contact {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.features {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#howdotheywork {
+    margin-top: 80px;
+    justify-content: center;
+}
+
+#prices {
+gap: 18px;
+}
+
+.product {
+    border: #8083B3 solid 4px;
+    padding: 0;
+}
+
+.offer {
+    background-color: #B1B3D4;
+    width: content-box;
+}
